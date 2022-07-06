@@ -1,0 +1,4 @@
+#!/usr/bin/env php
+<?php
+echo 'Visit: http://localhost:8080'."\n";
+shell_exec('php -S 0.0.0.0:8080 provider/microsoft.php');
